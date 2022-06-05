@@ -3,7 +3,7 @@
   width: 100%;
   text-transform: capitalize;
   text-transform: uppercase;
-  margin-bottom: 4rem;
+  margin-bottom: 2rem;
 }
 
 .header__content {
@@ -26,16 +26,17 @@
 }
 
 .site-title a {
-  color: rgb(6 6 6);
+  color: var(--header-color);
   text-decoration: none;
 }
 
 .site-title a:hover {
-  color: rgb(41, 41, 41);
+  color: rgb(118, 118, 118);
 }
 
 .nav__list {
   display: flex;
+  align-items: center;
   justify-content: space-around;
   list-style: none;
   font-size: var(--text-base);
@@ -43,8 +44,12 @@
   padding-bottom: 0.5rem;
 }
 
+.nav__list a,
+button {
+  color: var(--color);
+}
+
 .nav__list a {
-  color: rgb(117, 117, 117);
   text-decoration: none;
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -58,6 +63,13 @@
   margin-right: 0;
 }
 
-.nav__list a:hover {
-  color: rgb(41, 41, 41);
+.nav__list a:hover,
+button:hover {
+  color: rgb(136, 136, 136);
+}
+
+.dark-toggle {
+  background-color: transparent;
+  cursor: pointer;
+  user-select: none;
 }

@@ -1,6 +1,6 @@
 # Eleventy Duo
 
-Eleventy Duo is a minimal and beautiful Eleventy theme for personal blogs.
+Eleventy Duo is a minimal and beautiful Eleventy theme for personal entriess.
 
 ![demo site screenshot](./screenshot.png)
 
@@ -80,11 +80,11 @@ image: '/images/me.jpeg'
 Contents
 ```
 
-### Blog posts
+### entries posts
 
-Blog contents is at `src/posts`. Delete placeholder blog posts. Do not delete the `posts.json` file. Create blog posts in markdown format.
+entries contents is at `src/posts`. Delete placeholder entries posts. Do not delete the `posts.json` file. Create entries posts in markdown format.
 
-Sample frontmatter for blog posts.
+Sample frontmatter for entries posts.
 
 ```
 ---
@@ -131,13 +131,13 @@ The basic CMS setup allows you to edit the following:
 
 - About page: Edit the content of your about page.
 
-- Posts: Create and edit blog posts.
+- Posts: Create and edit entries posts.
 
 - Generic pages: Create generic pages that use a similar layout to posts.
 
 - Global site data: Various bits of global site data such as your url, title, and other details.
 
-You can add new blog posts, [data files](https://forestry.io/docs/editing/data-files/), or entire pages to fit your needs. You can also customize [how media is handled](https://forestry.io/docs/media/), by configurating gitLFS, Cloudinary, S3, or Netlify Large Media.
+You can add new entries posts, [data files](https://forestry.io/docs/editing/data-files/), or entire pages to fit your needs. You can also customize [how media is handled](https://forestry.io/docs/media/), by configurating gitLFS, Cloudinary, S3, or Netlify Large Media.
 
 You can set up a [remote admin](https://forestry.io/docs/editing/remote-admin/) for content editors to log in directly to yoururl.com/admin to make content updates.
 
