@@ -8,6 +8,11 @@
   },
   "headerLinks": [
     {
+      "text": "Entries",
+      "url": "/entries",
+      "external": false
+    },
+    {
       "text": "About",
       "url": "/about",
       "external": false

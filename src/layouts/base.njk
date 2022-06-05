@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="canonical" href={{ page.url | url | absoluteUrl(site.url) }}> {% bundledcss %} <link rel="preconnect" href="https://fonts.gstatic.com">
-    <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet">
+    {# <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans&display=swap" rel="stylesheet"> #}
     <title>
       {{ title  | escape }}
       {% if title %}
@@ -96,7 +96,7 @@
                 {% endfor %}
                 <li class="nav-item">
                   <a class="dark-toggle">
-                    THEME ☀
+                    Theme ☀
                   </a>
                 </li>
               </ul>
@@ -109,7 +109,7 @@
       </main>
       <footer class="footer">
         <div class="footer__content">
-          <p>find me on
+          <p class="footer__content__text">find me on
             {% if site.socialLinks %}
               {% for item in site.socialLinks %}
                 {% set externalAttribute = '' %}
@@ -136,6 +136,7 @@
         </ul>
         {% if site.showFooterAttribution %}
           <p class="footer__attribution">
+            based off of
             <a href="https://github.com/yinkakun/" target="_blank" rel="noopener noreferrer">eleventy-duo
             </a>by
             <a href="https://twitter.com/yinkakun" target="_blank" rel="noopener">@Yinka,</a>

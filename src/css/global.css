@@ -5,6 +5,7 @@ html {
 }
 
 body {
+  transition: all 100ms linear;
   background-color: var(--background);
 }
 

@@ -1,8 +1,8 @@
 .header {
   max-width: none;
   width: 100%;
-  text-transform: capitalize;
-  text-transform: uppercase;
+  /* text-transform: capitalize; */
+  /* text-transform: uppercase; */
   margin-bottom: 2rem;
 }
 
@@ -17,10 +17,11 @@
   padding: 1rem;
   margin-top: 1rem;
   border-bottom: 1px solid rgba(230, 230, 230, 1);
+  font-weight: 600;
 }
 
 .site-title {
-  font-size: var(--text-xl);
+  font-size: var(--text-2xl);
   margin-top: 1rem;
   margin-bottom: 1rem;
 }
