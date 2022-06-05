@@ -1,8 +1,11 @@
 ---
 layout: home
-title: "Eleventy Duo"
+title: "Home"
 ---
 Hi! I'm Ali Adnan - a software developer in Hong Kong, you can read more <a href='/about'>about me here</a> - or read about what I've been doing below 
+
+<img style="width: 100%" src="./images/DSC_13522.jpg"></img>
+
 
 Latest Projects:
 
