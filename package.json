@@ -39,6 +39,7 @@
     "dev:site": "env ELEVENTY_ENV=development eleventy --serve",
     "build:assets": "webpack --mode production",
     "build:site": "env ELEVENTY_ENV=production eleventy",
+    "serve:site": "env ELEVENTY_ENV=production eleventy --serve",
     "clean": "rm -rf ./public"
   },
   "dependencies": {

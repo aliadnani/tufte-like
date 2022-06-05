@@ -85,12 +85,6 @@
         }
       };
     </script>
-    <script>
-      const button = document.querySelector(".dark-toggle");
-      button.addEventListener("click", function (event) {
-        toggleTheme();
-      });
-    </script>
   </head>
   {# <body> #}
   <body>
@@ -119,7 +113,7 @@
                   </li>
                 {% endfor %}
                 <li class="nav-item">
-                  <a class="dark-toggle">
+                  <a class="dark-toggle" onclick="toggleTheme()">
                     Theme ☀
                   </a>
                 </li>
