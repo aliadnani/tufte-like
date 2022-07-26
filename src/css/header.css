@@ -13,9 +13,9 @@
   align-items: center;
   margin-left: auto;
   margin-right: auto;
-  max-width: 48.75rem;
-  padding: 1rem;
-  border-bottom: 0px solid rgba(230, 230, 230, 1);
+  max-width: var(--width);
+  padding: 1rem 1rem 0 1rem;
+  border-bottom: 1px solid rgba(230, 230, 230, 1);
   font-weight: 600;
 }
 

@@ -4,7 +4,7 @@ title: "Home"
 ---
 Hi! I'm Ali Adnan - a software developer in Hong Kong, you can read more <a href='/about'>about me here</a> - or read about what I've been doing below 
 
-<img style="width: 60%" src="./images/DSC_13522.jpg"></img>
+<img style="width: 60%" src="./images/main-me.jpg"></img>
 
 
 Latest Projects:
