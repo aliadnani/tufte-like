@@ -122,6 +122,7 @@ module.exports = function (eleventyConfig) {
     if (outputPath && outputPath.endsWith(".html") && isProd) {
       return htmlmin.minify(content, {
         removeComments: true,
+        minifyJS: true,
         collapseWhitespace: true,
         useShortDoctype: true,
       });

@@ -36,10 +36,8 @@
   display: flex;
   align-items: center;
   justify-content: center;
-  transition: opacity 0.2s ease-in-out;
 }
 
 .hero__skip-link svg {
-  transition: opacity 0.2s ease-in-out;
   stroke: rgb(0, 0, 0, 0.4);
 }

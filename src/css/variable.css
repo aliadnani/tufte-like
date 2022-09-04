@@ -1,12 +1,12 @@
 :root {
   --width: 62.25rem;
-  --accent: #0074d9;
+  --accent: #f82141;
   --background: #fffffe;
   --body-color: rgb(41, 41, 41);
 }
 
 [theme="dark"] {
-  --accent: #0074d9;
+  --accent: #d9005a;
   --background: #060606;
   --topnav-color: rgb(198, 198, 198);
   --header-color: rgb(255, 255, 255);
