@@ -9,6 +9,8 @@ Hi! I'm Ali Adnan - a software developer in Hong Kong, you can read more <a href
 
 Latest Projects:
 
+- [koi](https://koi.aliadnani.com/): An open-source & self-hostable feedback platform
+  <img class="home-img" style="width: 60%" src="./images/koi.png"></img>
 - [todo-ci](https://github.com/aliadnani/todo-ci): Check your code TODOs (and fail your ci/cd if they're overdue)
   <img class="home-img" style="width: 60%" src="./images/todo-ci.gif"></img>
 - [terminal-ssr](https://github.com/aliadnani/terminal-ssr): Server-side rendered terminal UIs

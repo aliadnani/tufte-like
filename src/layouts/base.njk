@@ -81,9 +81,9 @@
     {% endif %}
     {# Add mermaid -- start #}
   {# <script src="https://cdn.jsdelivr.net/npm/mermaid/dist/mermaid.min.js"></script>
-        <script>
-          mermaid.initialize({startOnLoad: true});
-        </script> #}
+          <script>
+            mermaid.initialize({startOnLoad: true});
+          </script> #}
     {# Add mermaid -- end #}
   </head>
   {# <body> #}
@@ -108,9 +108,11 @@
                   {% if page.url == item.url %}
                     {% set currentAttribute = 'aria-current="page"' %}
                   {% endif %}
-                  <li class="nav-item">
-                    <a href="{{ item.url | url }}" {{ currentAttribute | safe }} {{ externalAttribute | safe }}>{{ item.text }}</a>
-                  </li>
+                  {% if not item.hidden %}
+                    <li class="nav-item">
+                      <a href="{{ item.url | url }}" {{ currentAttribute | safe }} {{ externalAttribute | safe }}>{{ item.text }}</a>
+                    </li>
+                  {% endif %}
                 {% endfor %}
                 <li class="nav-item">
                   <a class="dark-toggle" onclick="toggleTheme()">

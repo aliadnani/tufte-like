@@ -10,7 +10,8 @@
     {
       "text": "Entries",
       "url": "/entries",
-      "external": false
+      "external": false,
+      "hidden": true
     },
     {
       "text": "About",
